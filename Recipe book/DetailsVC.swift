@@ -28,6 +28,8 @@ class DetailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         
         
     }
+    
+    
     @objc func hideKeyboard(){
         self.view.endEditing(true)
     }
@@ -39,14 +41,22 @@ class DetailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         present(picker, animated: true, completion: nil)
         
     }
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         imageView.image = info[.originalImage] as? UIImage
         self.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func saveButtonClicked(_ sender: Any) {
-        print("test")
-    }
+   @IBAction func save(_ sender: Any) {
+       
+  
+       
+   }
+   
+    @IBAction func cancel(_ sender: Any) {
+         
     
+         
+     }
 
 }
