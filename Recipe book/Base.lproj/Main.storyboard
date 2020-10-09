@@ -82,6 +82,7 @@
                         <viewLayoutGuide key="safeArea" id="8z8-R8-3CP"/>
                     </view>
                     <navigationItem key="navigationItem" id="whE-De-OYw">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="JUF-zR-brE"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="gPn-vM-2Xi"/>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
